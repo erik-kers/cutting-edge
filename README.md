@@ -13,4 +13,4 @@ Thesis project
 
 ## Contributors
 
-* **Bill Kurtsson** [krossmaskinen](https://github.com/krossmaskinen)
+* **Bill Kurtson** [krossmaskinen](https://github.com/krossmaskinen)
