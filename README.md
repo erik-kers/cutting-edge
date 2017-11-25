@@ -1,6 +1,6 @@
 # Cutting Edge
 
-Thesis project
+Degree project
 
 ## Built With
 
