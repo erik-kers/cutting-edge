@@ -13,7 +13,8 @@
     "aurelia-materialize-bridge": "^0.31.0",
     "aurelia-polyfills": "latest",
     "bluebird": "^3.4.1",
-    "materialize-css": "^0.100.2"
+    "materialize-css": "^0.100.2",
+    "mongoose": "^4.13.5"
   },
   "peerDependencies": {},
   "devDependencies": {
