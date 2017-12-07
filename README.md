@@ -14,3 +14,4 @@ Degree project
 ## Contributors
 
 * **Bill Kurtson** [krossmaskinen](https://github.com/krossmaskinen)
+* **Oliver Praesto** [oliie](https://github.com/oliie)
