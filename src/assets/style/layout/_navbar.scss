@@ -1,0 +1,16 @@
+nav {
+  background-color: white !important;
+  a {
+    color: black !important; 
+  }
+}
+
+.nav-wrapper .brand-logo img {
+  height: 25px;
+  vertical-align: middle
+}
+
+.nav-wrapper .input-field input[type=search]:focus {
+  background-color: #546e7a;
+  color: white;
+}
