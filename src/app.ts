@@ -10,6 +10,7 @@ export class App {
     config.map([
       { route: ['', 'home'], name: 'home', moduleId: PLATFORM.moduleName("./pages/home") },
       { route: 'recipe', name: 'recipe', moduleId: PLATFORM.moduleName("./pages/recipe"), nav: true, title: 'Recipe' },
+      { route: 'new-recipe', name: 'new-recipe', moduleId: PLATFORM.moduleName("./pages/new-recipe"), nav: true, title: 'New Recipe' },
     ]);
   }
 }

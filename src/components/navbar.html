@@ -31,7 +31,7 @@
   <md-navbar show.bind="showSearchBar">
       <form>
         <div class="input-field blue-grey darken-4 nav-input">
-          <input id="search" type="search" placeholder="Sök på CuttingEdge" required>
+          <input id="search" focus.one-time="true" type="search" placeholder="Sök på CuttingEdge" required>
           <label for="search"></label>
           <i class="material-icons" click.delegate="showSearchBar = !showSearchBar">close</i>
         </div>

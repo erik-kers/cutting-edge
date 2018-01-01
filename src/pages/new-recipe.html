@@ -1,0 +1,31 @@
+<template>
+  <require from="../resources/value-converters/blob-to-url"></require>
+  <require from="../resources/value-converters/file-list-to-array"></require>
+
+  <div class="container">
+    <div class="row">
+      <div class="col m7 offset-m2">
+        <h1 class="recipe-header">
+          Skapa nytt recept
+        </h1>
+      </div>
+      <div class="col m7 offset-m2" repeat.for="file of selectedFiles | fileListToArray">
+          <img class="recipe-header-img" src.bind="file | blobToUrl" />
+        </div>
+      <div class="col m7 offset-m2">
+        <input type="file" multiple accept="image/*" files.bind="selectedFiles">
+      </div>
+      <div class="col m7 offset-m2">
+        <md-input md-label="Ge ditt recept ett namn" md-value.bind="title"></md-input>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m7 offset-m2">
+        <md-input md-label="Ge ditt recept en kort beskrivning (max 120 tecken)" md-value.bind="description" md-text-area="true"
+          md-char-counter="length: 200;">
+        </md-input>
+      </div>
+    </div>
+
+  </div>
+</template>
