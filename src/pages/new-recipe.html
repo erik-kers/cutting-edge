@@ -6,9 +6,10 @@
     <div class="row">
       <div class="col m7 offset-m2">
         <h1 class="recipe-header">
-          Skapa nytt recept
+          Skapa recept
         </h1>
       </div>
+
       <div class="col m7 offset-m2" repeat.for="file of selectedFiles | fileListToArray">
           <img class="recipe-header-img" src.bind="file | blobToUrl" />
         </div>
