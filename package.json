@@ -16,7 +16,7 @@
     "aurelia-validation": "^1.1.2",
     "bluebird": "^3.4.1",
     "materialize-css": "^0.100.2",
-    "mongoose": "^4.13.5"
+    "mongoose": "^5.7.5"
   },
   "peerDependencies": {},
   "devDependencies": {
